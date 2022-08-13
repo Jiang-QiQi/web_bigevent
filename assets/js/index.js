@@ -6,7 +6,6 @@ $(function () {
   // 调用 getUserInfo() 获取用户基本信息
   getUserInfo()
 
-
   // 点击按钮，实现退出功能
   $('#btnLogout').on('click', function () {
     // 提示用户是否确认退出
@@ -21,7 +20,6 @@ $(function () {
     });
   })
 })
-
 
 // 入口函数中可以调用一个方法来获取用户基本信息
 // 这个方法写在入口函数之外
